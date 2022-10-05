@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5137534275151493937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5137534275151493938}
+  - component: {fileID: 5137534275151493939}
+  m_Layer: 0
+  m_Name: AttackSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5137534275151493938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137534275151493937}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5137534275151493939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137534275151493937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4840645ebd6083542acd29f49fe65337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Missiles:
+  - {fileID: 1221607738128840, guid: 340bbca8e850c334bbd87c207a4f0cd6, type: 3}
+  - {fileID: 1255278661010280, guid: 1b76c77aee1fc3044b4b2ecaa6c89e66, type: 3}
+  - {fileID: 1766671140903152, guid: 0ad64161c3341f24fb6461c84af99b59, type: 3}
+  RangeX: 4
+  RangeZ: 2
+  interval: 1
+  Arrow: {fileID: 6905510525487199669, guid: 9c48f7b1f63d89f4c8704dd2be418219, type: 3}
+  arrow_range: 3
+  Dagger: {fileID: 924483161699745594, guid: 3c0a19325fb99214abc8d60090036ed3, type: 3}
+  dagger_range: 2
+  stageManager: {fileID: 0}
